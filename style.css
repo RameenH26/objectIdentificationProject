@@ -22,3 +22,8 @@ body{
 #topButton{
     margin-top: 65px;
 }
+
+canvas{
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
