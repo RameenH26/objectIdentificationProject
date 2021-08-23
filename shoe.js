@@ -5,7 +5,7 @@ function preload() {
 }
 function setup() {
    canvas = createCanvas(525, 400);
-   canvas.position(370, 150);
+   canvas.position(370, 170);
 
    objectDetector = ml5.objectDetector('cocossd', modelLoaded);
    document.getElementById('status').innerHTML = "Status : Detecting";
