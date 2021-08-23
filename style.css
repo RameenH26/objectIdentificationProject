@@ -1,8 +1,32 @@
 body{
     background-size: cover;
 }
+.heading{
+    color: black;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 0;
+}
+.heading:hover{
+    color: rgb(68, 68, 68);
+}
 #heading{
     color: black;
+}
+#objectNum{
+    font-size: small;
+}
+.home{
+    float: left;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px rgba(255, 255, 255, 0) solid;
+}
+i{
+    color: black;
+    font-size: 40px !important;
+}
+i:hover {
+  color: rgb(41, 41, 41);
 }
 .buttons{
     width: 350px;
